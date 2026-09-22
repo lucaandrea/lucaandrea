@@ -1,0 +1,114 @@
+[
+  {
+    "file": "replit.svg",
+    "source": "Grid-by-Replit/client/public/brand/logos/Replit-Logo-Symbol.svg",
+    "sourceRevision": "17ccfc0cc9541d3ef3f1bdc78668e76cffc16a75",
+    "sourceSha256": "c8c2a4962787c2a849b7669121ca3bb152fe04c761f9725c894dc685f4f76bc7",
+    "sha256": "c8c2a4962787c2a849b7669121ca3bb152fe04c761f9725c894dc685f4f76bc7",
+    "transform": "Unchanged copy"
+  },
+  {
+    "file": "replit-wordmark.svg",
+    "source": "Grid-by-Replit/client/public/brand/logos/Replit-Logo-Primary.svg",
+    "sourceRevision": "17ccfc0cc9541d3ef3f1bdc78668e76cffc16a75",
+    "sourceSha256": "4f6b0f1a847e52955fb4318e405e5f6cb5e0c591ef34666ed8ce69ee6a20db5c",
+    "sha256": "4f6b0f1a847e52955fb4318e405e5f6cb5e0c591ef34666ed8ce69ee6a20db5c",
+    "transform": "Unchanged copy"
+  },
+  {
+    "file": "volare.svg",
+    "source": "replit-travel-1/artifacts/volare/src/assets/volare-logo.svg",
+    "sourceRevision": "33658c37ffc6bff8594f56d88c06bde7f5e2a468",
+    "sourceSha256": "f6b64bdb22126cbe84d4092d0c638a170214dec246be78b03a5ad109164cd39e",
+    "sha256": "f6b64bdb22126cbe84d4092d0c638a170214dec246be78b03a5ad109164cd39e",
+    "transform": "Unchanged copy"
+  },
+  {
+    "file": "grid.svg",
+    "source": "Grid-by-Replit/client/public/grid_logo/app_icon_phase_1_closed.svg",
+    "sourceRevision": "17ccfc0cc9541d3ef3f1bdc78668e76cffc16a75",
+    "sourceSha256": "b61f29df74cb31e81dccf629c631348ca800f8e05b31d71d5f0785e1fe1e62d1",
+    "sha256": "b61f29df74cb31e81dccf629c631348ca800f8e05b31d71d5f0785e1fe1e62d1",
+    "transform": "Unchanged copy"
+  },
+  {
+    "file": "grep.svg",
+    "source": "grep-v2/artifacts/grep/public/brand/grep-mark.svg",
+    "sourceRevision": "35c24378647ab46978c69fb5647232ff9276e5f4",
+    "sourceSha256": "25dd661bbac8ed94e8e7a87409ac0393d61aad029a5deae1a0b350fac4f4396c",
+    "sha256": "25dd661bbac8ed94e8e7a87409ac0393d61aad029a5deae1a0b350fac4f4396c",
+    "transform": "Unchanged copy"
+  },
+  {
+    "file": "support.svg",
+    "source": "SupportStation/client/public/favicon.svg",
+    "sourceRevision": "a826fe0159c005773587952a6ece6244dde788d8",
+    "sourceSha256": "77ef5a8922f7b25ebd493accc89b09b840bbd32d47db00968046ead834f5b7f5",
+    "sha256": "77ef5a8922f7b25ebd493accc89b09b840bbd32d47db00968046ead834f5b7f5",
+    "transform": "Unchanged copy"
+  },
+  {
+    "file": "counsel.png",
+    "source": "Replit-Legal-Two/artifacts/counsel/public/legal_app_logo.png",
+    "sourceRevision": "18bb2567e6d9a691a09f7d837bf72bd72c54caf5",
+    "sourceSha256": "1fbccdb6e09f5923b7a197b2f402f2c2dc7fa9b266096e27a246d5273c79380b",
+    "sha256": "f7b0f5045605048ac8a1fc2cc23147a9fe1ff818a425a23010f331597878a2c4",
+    "transform": "Resized proportionally to 256px with sips"
+  },
+  {
+    "file": "revenue.svg",
+    "source": "grep-v2/artifacts/grep/public/brand/apps/revenue.svg",
+    "sourceRevision": "35c24378647ab46978c69fb5647232ff9276e5f4",
+    "sourceSha256": "3df75f8667b057e40e14fd853666b01bf729c8cbee9bed815f8e76d53d60dac9",
+    "sha256": "3df75f8667b057e40e14fd853666b01bf729c8cbee9bed815f8e76d53d60dac9",
+    "transform": "Unchanged copy"
+  },
+  {
+    "file": "pulse.png",
+    "source": "pulse-replit/artifacts/pulse-hub/public/brand/pulse-icon-128.png",
+    "sourceRevision": "6a183c7565c81c7726e590acd91d13988600fec5",
+    "sourceSha256": "2139b12ae46db819f4f3b97dfed82d06b6518afb1025450ced275be14a7d8787",
+    "sha256": "2139b12ae46db819f4f3b97dfed82d06b6518afb1025450ced275be14a7d8787",
+    "transform": "Unchanged copy"
+  },
+  {
+    "file": "hireflow.svg",
+    "source": "Hireflow/artifacts/hiring-ui/public/logo.svg",
+    "sourceRevision": "8f3717dc73c6e5ac0d79576e2ffb59191cb30c72",
+    "sourceSha256": "8ed54db68faa61d7d2813cab2887a20a187ad9e3633ffd072289eedefa8b3dc7",
+    "sha256": "8ed54db68faa61d7d2813cab2887a20a187ad9e3633ffd072289eedefa8b3dc7",
+    "transform": "Unchanged copy"
+  },
+  {
+    "file": "assets.svg",
+    "source": "grep-v2/artifacts/grep/public/brand/apps/assets.svg",
+    "sourceRevision": "35c24378647ab46978c69fb5647232ff9276e5f4",
+    "sourceSha256": "9b1d74ab6c30000214ba0ae159c07f7ebba771eb03e5232c751a54a73d614261",
+    "sha256": "9b1d74ab6c30000214ba0ae159c07f7ebba771eb03e5232c751a54a73d614261",
+    "transform": "Unchanged copy"
+  },
+  {
+    "file": "kaishi.png",
+    "source": "Kaishi/client/public/kaishi_logo/app_icon.png",
+    "sourceRevision": "fa8a3f4e2fbb8718f8b60525de28309a8ced28a0",
+    "sourceSha256": "5da104dc9f7762747006fc9ed4531fd4af27e7c9cea4ab7f5d12f436e6bb033d",
+    "sha256": "5da104dc9f7762747006fc9ed4531fd4af27e7c9cea4ab7f5d12f436e6bb033d",
+    "transform": "Unchanged copy"
+  },
+  {
+    "file": "vibecode.svg",
+    "source": "Vibecodingv3/client/public/vibecode_logo_no_bg.svg",
+    "sourceRevision": "2c6682575c2ab8fa78548d9b00087636c6619894",
+    "sourceSha256": "6a19609f3cda743e32b77c12b497063ff7eae1268a27587d61d0c927e19bf2fc",
+    "sha256": "6a19609f3cda743e32b77c12b497063ff7eae1268a27587d61d0c927e19bf2fc",
+    "transform": "Unchanged copy"
+  },
+  {
+    "file": "studio.png",
+    "source": "ai-studio/client/public/brands/studio.png",
+    "sourceRevision": "b93b9ba3a2d8f58618f560a1c520913d53c5be18",
+    "sourceSha256": "b2b36c7b76f2e025d918530d9b64dc73f686799b971ea02eb53e8ef0f2bd200c",
+    "sha256": "b2b36c7b76f2e025d918530d9b64dc73f686799b971ea02eb53e8ef0f2bd200c",
+    "transform": "Unchanged copy"
+  }
+]

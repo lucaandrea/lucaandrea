@@ -1,0 +1,86 @@
+[
+  {
+    "id": "volare", "name": "Volare", "logo": "volare.svg", "category": "operations", "domain": "Travel & operations", "color": "#f5dfce", "accent": "#a84b25", "headline": "Every part of the journey, connected.",
+    "summary": "A corporate travel platform connecting trips, flights, hotels, policy, approvals, and spend across web and native iOS.",
+    "why": "Travelers need a clear next step. Operations and finance need the same picture, especially when plans change.",
+    "detail": "I bring the traveler experience and the operational work behind it into one product: trip planning, group travel, exceptions, and the context needed to support people along the way.",
+    "flow": ["Plan the trip", "Review & book", "Stay supported"], "tags": ["Travel", "Policy & spend", "Web + iOS"], "source": "replit-travel-1/README.md"
+  },
+  {
+    "id": "grid", "name": "Grid", "logo": "grid.svg", "category": "knowledge", "domain": "People & company knowledge", "color": "#e7eddd", "accent": "#486345", "headline": "A company that is easier to navigate.",
+    "summary": "An employee home for company resources, people, teams, org structure, office information, and everyday answers.",
+    "why": "Finding the right person or document should not depend on knowing which channel to ask in.",
+    "detail": "Grid gives scattered company information a useful front door. People, resources, and places belong together because that is how employees experience the company.",
+    "flow": ["Find a person", "Get the context", "Move forward"], "tags": ["People", "Resources", "Employee experience"], "source": "Luca-Portfolio/app/projects.tsx; Grid-by-Replit/README.md"
+  },
+  {
+    "id": "grep", "name": "Grep", "logo": "grep.svg", "category": "knowledge", "domain": "Search & intelligence", "color": "#e0e8ed", "accent": "#395a6f", "headline": "Find the answer. Keep the evidence.",
+    "summary": "A company search and intelligence workspace for finding decisions, prior work, source material, and the people behind them.",
+    "why": "Useful answers need traceable sources and the right access, not another layer of information to sort through.",
+    "detail": "Grep brings retrieval, synthesis, and company context into a workspace built around questions people actually ask. The source remains part of the answer, so the next decision has something solid behind it.",
+    "flow": ["Ask a question", "Trace the source", "Use the answer"], "tags": ["Search", "Citations", "Access-aware AI"], "source": "grep-v2/README.md; Luca-Portfolio/app/projects.tsx"
+  },
+  {
+    "id": "support", "name": "Support Station", "logo": "support.svg", "category": "operations", "domain": "Support operations", "color": "#e9e3ee", "accent": "#675075", "headline": "Turn customer signals into coordinated action.",
+    "summary": "A support workspace connecting queue health, customer sentiment, quality, reporting, knowledge gaps, and incident response.",
+    "why": "Support teams need to see what needs attention and connect individual issues to patterns across the product.",
+    "detail": "Support Station brings operational context and AI-assisted analysis into the same place. The aim is to help engineers, managers, and leaders understand the situation, investigate recurring issues, and coordinate the response.",
+    "flow": ["Read the signals", "Find the pattern", "Coordinate action"], "tags": ["Support", "Product signals", "Incident response"], "source": "SupportStation/README.md"
+  },
+  {
+    "id": "counsel", "name": "Counsel", "logo": "counsel.png", "category": "operations", "domain": "Legal workflows", "color": "#e9e5db", "accent": "#6a604a", "headline": "Give legal judgment a better workspace.",
+    "summary": "AI-assisted contract review bringing clause triage, playbooks, redlines, precedent, and negotiation context into one workspace.",
+    "why": "Legal teams need the relevant evidence beside the clause they are reviewing, with control over every decision.",
+    "detail": "Counsel organizes the work around the contract: compare a clause with the playbook, review a proposed change, and retain the reasoning and history. AI helps prepare and surface context; the lawyer stays in charge of review.",
+    "flow": ["Triage clauses", "Review changes", "Keep the record"], "tags": ["Legal", "Contract review", "Human judgment"], "source": "Replit-Legal-Two/README.md"
+  },
+  {
+    "id": "revenue", "name": "Revenue Copilot", "logo": "revenue.svg", "category": "operations", "domain": "Revenue & decision support", "color": "#e0e9e5", "accent": "#3e6759", "headline": "Less assembly. More informed next steps.",
+    "summary": "A shared workspace for revenue priorities, pipeline, forecasts, account research, and AI-assisted daily work.",
+    "why": "Teams should be able to act on account context without rebuilding it from disconnected systems every morning.",
+    "detail": "Revenue Copilot brings work queues, research, analytics, and team visibility together. Numbers and recommendations retain their source context, so the team can understand what it is acting on.",
+    "flow": ["Gather context", "Set priorities", "Take the next step"], "tags": ["Revenue", "Pipeline", "Account context"], "source": "Revenue-Copilot/README.md"
+  },
+  {
+    "id": "pulse", "name": "PULSE", "logo": "pulse.png", "category": "enablement", "domain": "Builder tools & extensions", "color": "#f5dfce", "accent": "#a84b25", "headline": "Your Replit workspace, within reach.",
+    "summary": "Chrome and Raycast companions for app building, project access, and permission-aware project insights.",
+    "why": "Bring useful context into the tools people already use, so getting to the work takes fewer steps.",
+    "detail": "PULSE connects desktop and browser workflows with Replit. The surrounding release hub gives employees a clear place to get the companions and understand what changed.",
+    "flow": ["Open", "Understand", "Build"], "tags": ["Chrome", "Raycast", "Project insights"], "source": "Luca-Portfolio/app/projects.tsx; pulse-replit/replit.md"
+  },
+  {
+    "id": "hireflow", "name": "Hireflow", "logo": "hireflow.svg", "category": "operations", "domain": "Recruiting workflows", "color": "#e7eddd", "accent": "#486345", "headline": "Put recruiting context in one place.",
+    "summary": "A hiring workspace connecting sourcing, candidate search, screening evidence, recruiter calibration, and ATS workflows.",
+    "why": "Recruiters need consistent context and a clear way to inspect the evidence behind a recommendation.",
+    "detail": "Hireflow brings the steps around a role into a shared workflow, from discovering candidates to reviewing their supporting material. Recruiter judgment and calibration are part of the product.",
+    "flow": ["Source", "Review evidence", "Calibrate"], "tags": ["Recruiting", "Sourcing", "Review workflows"], "source": "Hireflow/README.md"
+  },
+  {
+    "id": "assets", "name": "Asset Lab", "logo": "assets.svg", "category": "enablement", "domain": "Creative & brand operations", "color": "#e9e3ee", "accent": "#675075", "headline": "Connect the brief to the usable asset.",
+    "summary": "An AI-powered brand and asset workspace for generating, organizing, and working with launch and marketing material.",
+    "why": "Creative work needs a path from an idea to something the team can find, reuse, and put to work.",
+    "detail": "Asset Lab brings creation and asset management together. Brand context, generation, and organization sit within the same workflow instead of being scattered across separate tools.",
+    "flow": ["Brief", "Create", "Organize & reuse"], "tags": ["Creative AI", "Brand", "Asset management"], "source": "LaunchAssetLab/replit.md"
+  },
+  {
+    "id": "kaishi", "name": "Kaishi", "logo": "kaishi.png", "category": "knowledge", "domain": "Meetings & follow-through", "color": "#e0e8ed", "accent": "#395a6f", "headline": "Keep the thinking. Move the work forward.",
+    "summary": "Meeting capture, searchable transcripts, decisions, and actions brought into a dedicated workspace.",
+    "why": "A good conversation should leave context people can recover and a next step they can follow.",
+    "detail": "Kaishi began with the need to preserve the value of a standup. It connects what was said with the actions and project context that follow, and informed the development of the broader Studio workbench.",
+    "flow": ["Capture", "Find the decision", "Follow through"], "tags": ["Meetings", "Searchable context", "Actions"], "source": "Kaishi/replit.md; Luca-Portfolio/app/projects.tsx"
+  },
+  {
+    "id": "vibecode", "name": "Vibecode Time", "logo": "vibecode.svg", "category": "enablement", "domain": "Company building culture", "color": "#f5dfce", "accent": "#a84b25", "headline": "Make building something everyone can join.",
+    "summary": "An internal platform for build challenges, themes, submissions, voting, and sharing what employees make with Replit Agent.",
+    "why": "People learn what AI can do by using it on a real idea and seeing what their colleagues create.",
+    "detail": "Vibecode Time gives company building events a home, from joining a challenge to submitting a project and discovering the work. Enablement becomes something people participate in.",
+    "flow": ["Join", "Build & share", "Learn together"], "tags": ["Enablement", "Build challenges", "Community"], "source": "Vibecodingv3/replit.md"
+  },
+  {
+    "id": "studio", "name": "AI Studio", "logo": "studio.png", "category": "enablement", "domain": "The operating workbench", "color": "#e9e5db", "accent": "#6a604a", "headline": "Give the work behind the products a home.",
+    "summary": "A portfolio workbench for requests, projects, meetings, feedback, tasks, and reviewed priorities across the Studio.",
+    "why": "As the portfolio grows, requests, ownership, evidence, and follow-through need to stay connected.",
+    "detail": "The workbench brings Studio coordination into one place while source applications keep their own records and access boundaries. It is being developed through a pilot, with rollout and team adoption treated as separate milestones.",
+    "flow": ["Understand requests", "Coordinate work", "Learn from feedback"], "tags": ["Portfolio", "Team workflows", "Feedback"], "source": "ai-studio/README.md"
+  }
+]
