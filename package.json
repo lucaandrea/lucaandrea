@@ -1,0 +1,15 @@
+{
+  "name": "lucaandrea-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node review/build-github.mjs",
+    "build:art": "python3 review/build-art.py",
+    "refresh:stats": "node scripts/refresh-public-stats.mjs",
+    "preview": "python3 -m http.server 43174 --bind 127.0.0.1"
+  },
+  "devDependencies": {
+    "markdown-it": "14.3.1"
+  }
+}
