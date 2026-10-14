@@ -1,7 +1,7 @@
 # Visual GitHub profile — review record
 
-Prepared October 14, 2026. The profile repository remains private until the
-publication review described in [PROFILE_SETTINGS.md](PROFILE_SETTINGS.md).
+Prepared October 14, 2026. The owner approved publication and requested quick
+editing and unpublishing controls. See [MANAGE.md](MANAGE.md).
 
 ## The result
 
@@ -68,7 +68,7 @@ already published sample/demo captures, not newly captured production views.
 Generated project cards crop those captures to a consistent presentation frame.
 
 `data/portrait-source.json` records the unchanged portrait already published
-on luca.ooo, proposed as the GitHub avatar.
+on luca.ooo, approved as the GitHub avatar.
 
 `data/asset-sources.json` retains the September provenance for the existing
 product marks. `review/build-visuals.mjs` uses those marks to generate the SVG
@@ -94,9 +94,11 @@ pnpm preview
 Open http://127.0.0.1:43174/github.html for the actual README approximation or
 http://127.0.0.1:43174/ for the interactive preview.
 
-- `data/profile.json`: positioning, bio, selected products, experiments.
+- `README.md`: editable public page; routine builds preserve direct GitHub edits.
+- `data/profile.json`: preview positioning, bio, selected products, experiments.
 - `data/projects.json`: established product descriptions and source pointers.
-- `review/build-profile.mjs`: README structure and concise product summaries.
+- `review/build-profile.mjs`: optional README template and concise product summaries.
+  `pnpm profile:regenerate` explicitly replaces the README with this template.
 - `review/build-visuals.mjs`: artwork composition and image dimensions.
 - `review/index.template.html`, `styles.css`, `app.js`: interactive preview.
 - `review/build-github.mjs`: local GitHub layout.

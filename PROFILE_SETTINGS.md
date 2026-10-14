@@ -1,11 +1,11 @@
-# Profile settings ready for review
+# Approved profile settings
 
 The README lives in `lucaandrea/lucaandrea`. GitHub shows it on the account
 profile only when the repository is public and the README is on its default
-branch. This repository is currently private; this change is prepared on
-`lucas-assistant/visual-profile`.
+branch. The owner approved publication, portrait, bio, and website on
+October 14, 2026, and requested quick editing and unpublishing controls.
 
-## Proposed account fields
+## Approved account fields
 
 **Bio:**
 
@@ -19,16 +19,16 @@ AI Chief of Staff @ Replit. Turning real workflows into useful software. Operati
 https://luca.ooo/images/luca.jpg, unchanged at 400 × 400 pixels.
 
 The existing display name, company, location, and social links are preserved. The account bio and website were empty when checked on October 14,
-2026. `data/profile.json` contains the exact proposed field values.
+2026. `data/profile.json` contains the exact approved field values.
 
-## Activation after review
+## Publication checklist
 
 1. Merge the reviewed profile change into `main`.
 2. Make `lucaandrea/lucaandrea` public. This exposes the entire profile
    repository and its existing September draft history, including the earlier
    product descriptions and artwork provenance. It does not expose the source
    repositories for the featured products.
-3. Apply the proposed portrait, bio, and website fields to the `lucaandrea` account.
+3. Apply the approved portrait, bio, and website fields to the `lucaandrea` account.
 4. Verify the public profile while signed out, including the header, all six
    product images, experiment artwork, and mobile sources.
 
@@ -36,7 +36,8 @@ GitHub Pages is unnecessary: the profile README appears directly on
 https://github.com/lucaandrea. The interactive HTML pages are optional previews;
 the profile itself uses only GitHub-supported Markdown, images, and disclosures.
 
-No repository visibility or account fields have been changed by this draft.
+Use [MANAGE.md](MANAGE.md) to edit, hide, or republish the portfolio. Making
+the repository private hides the README; account fields are managed separately.
 
 ## Optional pins
 

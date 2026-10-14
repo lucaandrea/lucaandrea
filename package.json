@@ -8,6 +8,9 @@
     "test": "node review/validate.mjs",
     "build": "node review/build-visuals.mjs && node review/build-profile.mjs && node review/build-github.mjs",
     "build:art": "node review/build-visuals.mjs",
+    "profile:regenerate": "node review/build-profile.mjs --refresh-readme && node review/build-github.mjs",
+    "profile:hide": "gh repo edit lucaandrea/lucaandrea --visibility private --accept-visibility-change-consequences",
+    "profile:show": "gh repo edit lucaandrea/lucaandrea --visibility public --accept-visibility-change-consequences",
     "preview": "python3 -m http.server 43174 --bind 127.0.0.1"
   },
   "devDependencies": {
