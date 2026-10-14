@@ -23,12 +23,12 @@ For the small bio, website, or portrait beside the page, use **Edit bio, website
 ## Hide or unpublish
 
 1. Open **[Visibility settings](https://github.com/lucaandrea/lucaandrea/settings#danger-zone)**.
-2. In **Danger Zone**, choose **Change repository visibility → Make private**.
+2. In **Danger Zone**, choose **Change visibility → Change to private**.
 3. Follow GitHub's confirmation steps.
 
 This removes the portfolio README from your public profile and hides this
 repository. Your files and editing history stay available to you. To republish,
-use the same setting and choose **Make public**.
+use the same setting and choose **Change to public**.
 
 Your GitHub account, avatar, short bio, and other public repositories remain
 visible. Change the account fields separately in

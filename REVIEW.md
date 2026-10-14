@@ -122,5 +122,15 @@ for historical comparison; the current build uses `build-visuals.mjs`.
 - Browser console checks reported no errors or warnings.
 - `git diff --check` passed.
 
-Screenshots in `review/screenshots/` show local previews, not a live public
-GitHub profile. Public rendering and account field changes await activation.
+The owner approved publication on October 14, 2026. PR #1 is merged, the
+repository is public, and the approved bio, website, and portrait are saved.
+Screenshots named `github-live-*` in `review/screenshots/` show the actual
+signed-out public profile; the other screenshots retain the local previews.
+Desktop (1280px) and mobile (390px) public rendering were checked: all nine
+README images loaded, the three responsive sources switched on mobile, and
+there was no horizontal page overflow. The Profile controls disclosure and
+owner visibility menu were verified. A manual-edit sentinel also survived a
+normal build byte-for-byte before being removed.
+
+See [PROFILE_SETTINGS.md](PROFILE_SETTINGS.md) for the publication record and
+[MANAGE.md](MANAGE.md) for the edit/unpublish guide.
