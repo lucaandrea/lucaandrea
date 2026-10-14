@@ -18,8 +18,7 @@ document.querySelectorAll('[data-filter]').forEach(button => {
       filter.classList.toggle('active', active);
       filter.setAttribute('aria-pressed', String(active));
     });
-    document.querySelector('#toolbox').hidden = ![...document.querySelectorAll('#toolbox .project')].some(project => !project.hidden);
-    document.querySelector('#filter-status').textContent = `${String(count).padStart(2, '0')} PRODUCTS`;
+    document.querySelector('#filter-status').textContent = `${String(count).padStart(2, '0')} PROJECTS`;
   });
 });
 
@@ -32,6 +31,7 @@ document.querySelectorAll('[data-story]').forEach(button => {
     const story = stories[button.dataset.story];
     document.querySelector('#dialog-label').textContent = `${story.name} / ${story.domain}`;
     document.querySelector('#dialog-title').textContent = story.headline;
+    document.querySelector('#dialog-public').href = `https://luca.ooo/#project-${story.id}`;
     const body = document.querySelector('#dialog-body');
     body.replaceChildren(...[story.summary, story.why, story.detail].map(text => {
       const p = document.createElement('p'); p.textContent = text; return p;
@@ -46,7 +46,6 @@ document.querySelectorAll('[data-story]').forEach(button => {
     storyDialog.showModal();
   });
 });
-document.querySelector('#preview-notes').addEventListener('click', () => document.querySelector('#notes-dialog').showModal());
 document.querySelectorAll('dialog').forEach(dialog => {
   dialog.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => {

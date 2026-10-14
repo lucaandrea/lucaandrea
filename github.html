@@ -1,162 +1,39 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Luca Andrea — GitHub README layout draft</title><style>
-:root{color-scheme:light;--bg:#fff;--ink:#1f2328;--muted:#656d76;--line:#d0d7de;--soft:#f6f8fa;--link:#0969da}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}button{font:inherit;cursor:pointer}header{padding:12px 28px;background:#202a32;color:#e6edf3;display:flex;justify-content:space-between;gap:20px;font-size:12px}header a{color:#ffb594}header button{background:none;color:#e6edf3;border:1px solid #647080;border-radius:5px;padding:3px 12px}.nav{max-width:1200px;margin:30px auto 0;border-bottom:1px solid var(--line);padding:0 30px 14px;color:var(--muted)}.layout{display:grid;grid-template-columns:245px 1fr;gap:30px;max-width:1200px;margin:25px auto 60px;padding:0 30px}.avatar{background:#e9eedf;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;font:110px Georgia,serif;color:#354a39;border:1px solid #cdd8c5}.sidebar h1{font-size:25px;margin:16px 0 0}.handle{font-size:20px;color:var(--muted);margin:0 0 20px}.sidebar p{font-size:14px}.sidebar .label{font-size:11px;color:var(--muted)}.readme{border:1px solid var(--line);border-radius:7px;padding:24px 30px;min-width:0}.filename{font:12px ui-monospace,monospace;margin:0 0 24px;color:var(--muted)}.markdown{font-size:16px;line-height:1.6}.markdown img{max-width:100%;box-sizing:content-box}.markdown h2{border-bottom:1px solid var(--line);padding-bottom:.3em;margin:24px 0 16px;font-size:24px}.markdown h3{font-size:20px}.markdown p{margin:0 0 16px}.markdown details{margin:16px 0}.markdown summary{cursor:pointer;font-size:15px}.markdown details[open] summary{margin-bottom:16px}.markdown table{display:block;max-width:100%;overflow:auto;border-collapse:collapse;margin:16px 0}.markdown td,.markdown th{border:1px solid var(--line);padding:6px 13px}.markdown tr:nth-child(2n){background:var(--soft)}.markdown hr{height:3px;border:0;background:var(--line);margin:24px 0}.markdown li{margin:7px 0}.markdown a:focus-visible,summary:focus-visible{outline:3px solid #bf623f;outline-offset:3px}.notice{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px;margin-top:25px}
+:root{color-scheme:light;--bg:#fff;--ink:#1f2328;--muted:#656d76;--line:#d0d7de;--soft:#f6f8fa;--link:#0969da}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}button{font:inherit;cursor:pointer}header{padding:12px 28px;background:#202a32;color:#e6edf3;display:flex;justify-content:space-between;gap:20px;font-size:12px}header a{color:#ffb594}header button{background:none;color:#e6edf3;border:1px solid #647080;border-radius:5px;padding:3px 12px}.nav{max-width:1200px;margin:30px auto 0;border-bottom:1px solid var(--line);padding:0 30px 14px;color:var(--muted)}.layout{display:grid;grid-template-columns:245px 1fr;gap:30px;max-width:1200px;margin:25px auto 60px;padding:0 30px}.avatar{background:#e9eedf;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;font:110px Georgia,serif;color:#354a39;border:1px solid #cdd8c5}.sidebar h1{font-size:25px;margin:16px 0 0}.handle{font-size:20px;color:var(--muted);margin:0 0 20px}.sidebar p{font-size:14px}.sidebar .label{font-size:11px;color:var(--muted)}.readme{border:1px solid var(--line);border-radius:7px;padding:24px 30px;min-width:0}.filename{font:12px ui-monospace,monospace;margin:0 0 24px;color:var(--muted)}.markdown{font-size:16px;line-height:1.6}.markdown img{max-width:100%;box-sizing:content-box}.markdown h2{border-bottom:1px solid var(--line);padding-bottom:.3em;margin:24px 0 16px;font-size:24px}.markdown h3{font-size:20px}.markdown p{margin:0 0 16px}.markdown details{margin:16px 0}.markdown summary{cursor:pointer;font-size:15px}.markdown details[open] summary{margin-bottom:16px}.markdown table{display:block;max-width:100%;overflow:auto;border-collapse:collapse;margin:16px 0}.markdown td,.markdown th{border:1px solid var(--line);padding:12px 14px}.markdown td img{display:block;border-radius:10px}.markdown tr:nth-child(2n){background:var(--soft)}.markdown hr{height:3px;border:0;background:var(--line);margin:24px 0}.markdown li{margin:7px 0}.markdown a:focus-visible,summary:focus-visible{outline:3px solid #bf623f;outline-offset:3px}.notice{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px;margin-top:25px}
 @media(max-width:850px){.layout{grid-template-columns:1fr;padding:0 20px}.sidebar{display:none}.nav{margin-top:20px;padding:0 20px 12px}.readme{padding:20px}.markdown{font-size:14px}header{padding:12px 20px;font-size:10px}.markdown table{font-size:12px}}@media(max-width:500px){.layout{padding:0 10px}.readme{padding:14px}.markdown h2{font-size:21px}.markdown img[alt*="Chief of Staff"],.markdown img[alt*="LinkedIn"],.markdown img[alt*="Follow"]{max-width:100%;margin:3px}}
-</style></head><body><header><span>LOCAL README DRAFT · NOT PUBLISHED</span><span><a href="index.html">← HTML experience</a> &nbsp; <button id="theme">Dark theme</button></span></header><div class="nav">lucaandrea &nbsp; / &nbsp; <strong>Overview</strong> &nbsp; / &nbsp; Profile README preview</div><div class="layout"><aside class="sidebar"><div class="avatar" aria-label="Luca monogram placeholder">l.</div><h1>Luca Andrea</h1><p class="handle">lucaandrea</p><p>AI Chief of Staff @ Replit. Building tools around the way teams work. Exploring what comes next with AI.</p><p>Replit<br>San Francisco<br><a href="https://x.com/agi2asi">@agi2asi</a></p><p class="label">Proposed bio. Existing avatar and account settings stay unchanged.</p></aside><main class="readme"><p class="filename">lucaandrea / README.md</p><article class="markdown"><p align="center"><picture><source media="(max-width: 600px)" srcset="assets/hero-mobile.svg"><img src="assets/hero.svg" width="100%" alt="Luca Andrea — AI Chief of Staff at Replit. Building the company with AI." /></picture></p>
-<p align="center">
-  <a href="https://replit.com"><img src="https://img.shields.io/badge/Replit%20%C2%B7%20AI%20Chief%20of%20Staff-E84A16?style=flat-square&amp;logo=replit&amp;logoColor=white" alt="Replit · AI Chief of Staff" /></a>
-  <a href="https://luca.ooo"><img src="https://img.shields.io/badge/luca.ooo%20%C2%B7%20Portfolio-35493F?style=flat-square" alt="luca.ooo · Portfolio" /></a>
-  <a href="https://agi2asi.ai"><img src="https://img.shields.io/badge/agi2asi.ai%20%C2%B7%20Curiosity-574365?style=flat-square" alt="agi2asi.ai · Curiosity" /></a>
-  <a href="https://www.linkedin.com/in/luca-andrea/"><img src="https://img.shields.io/badge/LinkedIn%20%C2%B7%20Luca%20Andrea-496D89?style=flat-square" alt="LinkedIn · Luca Andrea" /></a>
-  <a href="https://x.com/agi2asi"><img src="https://img.shields.io/badge/%40agi2asi-20252D?style=flat-square&amp;logo=x&amp;logoColor=white" alt="@agi2asi" /></a>
-</p>
-<p align="center"><a href="#why-internal-tools">Why internal tools</a> &nbsp; / &nbsp; <a href="#inside-ai-studio">Inside AI Studio</a> &nbsp; / &nbsp; <a href="#more-of-the-studio">The toolbox</a> &nbsp; / &nbsp; <a href="#how-i-work">How I work</a></p>
+</style></head><body><header><span>LOCAL README DRAFT · NOT PUBLISHED</span><span><a href="index.html">← HTML experience</a> &nbsp; <button id="theme">Dark theme</button></span></header><div class="nav">lucaandrea &nbsp; / &nbsp; <strong>Overview</strong> &nbsp; / &nbsp; Profile README preview</div><div class="layout"><aside class="sidebar"><img class="avatar" src="https://avatars.githubusercontent.com/u/173080590?v=4" width="245" height="245" alt="Luca’s existing GitHub avatar"><h1>Luca</h1><p class="handle">lucaandrea</p><p>AI Chief of Staff @ Replit. Turning real workflows into useful software. Operations, AI & product design. Always building something.</p><p>Replit<br>San Francisco<br><a href="https://luca.ooo">luca.ooo</a><br><a href="https://x.com/agi2asi">@agi2asi</a></p><p class="label">Proposed bio. Existing avatar and account settings stay unchanged.</p></aside><main class="readme"><p class="filename">lucaandrea / README.md</p><article class="markdown"><!-- Generated by pnpm build. Edit data/profile.json and review/build-profile.mjs. -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/hero-mobile.svg"><img src="assets/hero.svg" width="100%" alt="Luca Andrea. An operator’s instinct. A builder’s curiosity. AI Chief of Staff at Replit." /></picture></p>
+<p align="center"><a href="https://luca.ooo"><b>Explore my portfolio ↗</b></a> &nbsp; · &nbsp; <a href="https://www.linkedin.com/in/luca-andrea/">LinkedIn</a> &nbsp; · &nbsp; <a href="https://x.com/agi2asi">X / @agi2asi</a> &nbsp; · &nbsp; <a href="mailto:ciao@luca.ooo">Say ciao</a></p>
 <h3 id="ciao-im-luca">Ciao, I'm Luca.</h3>
-<p>I'm the <strong>AI Chief of Staff at <a href="https://replit.com">Replit</a></strong>, based in San Francisco. I lead AI Studio, where I work with teams to turn operational problems into products built around the way they actually work.</p>
-<p><strong>Operator by instinct. Builder by practice. People first. Then the software.</strong></p>
-<h2 id="why-internal-tools">Why internal tools</h2>
-<p>I build internal tools because the gaps between systems become work for people: finding an answer, coordinating a trip, reviewing a contract, assembling account context. I connect that context and design the next step into the product, from the first conversation through the rollout, teaching, and continued improvement.</p>
-<p>The question I start with: <strong>where does the work get stuck?</strong></p>
-<h2 id="inside-ai-studio">Inside AI Studio</h2>
-<p>My work spans travel, company knowledge, support, legal, revenue, and the tools that help teams build. Each product starts with a particular workflow and the people responsible for it.</p>
-<h3 id="volare">Volare</h3>
-<p><picture><source media="(max-width: 600px)" srcset="assets/volare-mobile-card.svg"><img src="assets/volare-card.svg" width="100%" alt="Volare: Every part of the journey, connected. Plan the trip → Review &amp; book → Stay supported." /></picture></p>
-<p>A corporate travel platform connecting trips, flights, hotels, policy, approvals, and spend across web and native iOS.</p>
-<p><strong>Why:</strong> Travelers need a clear next step. Operations and finance need the same picture, especially when plans change.</p>
-<p><img src="https://img.shields.io/badge/Travel-a84b25?style=flat-square" alt="Travel" /> <img src="https://img.shields.io/badge/Policy%20%26%20spend-a84b25?style=flat-square" alt="Policy &amp; spend" /> <img src="https://img.shields.io/badge/Web%20%2B%20iOS-a84b25?style=flat-square" alt="Web + iOS" /></p>
-<details>
-<summary><b>Volare — why I build it</b></summary>
-<p>I bring the traveler experience and the operational work behind it into one product: trip planning, group travel, exceptions, and the context needed to support people along the way.</p>
-<p><strong>The workflow:</strong> Plan the trip → Review &amp; book → Stay supported.</p>
-</details>
-<h3 id="grid">Grid</h3>
-<p><picture><source media="(max-width: 600px)" srcset="assets/grid-mobile-card.svg"><img src="assets/grid-card.svg" width="100%" alt="Grid: A company that is easier to navigate. Find a person → Get the context → Move forward." /></picture></p>
-<p>An employee home for company resources, people, teams, org structure, office information, and everyday answers.</p>
-<p><strong>Why:</strong> Finding the right person or document should not depend on knowing which channel to ask in.</p>
-<p><img src="https://img.shields.io/badge/People-486345?style=flat-square" alt="People" /> <img src="https://img.shields.io/badge/Resources-486345?style=flat-square" alt="Resources" /> <img src="https://img.shields.io/badge/Employee%20experience-486345?style=flat-square" alt="Employee experience" /></p>
-<details>
-<summary><b>Grid — why I build it</b></summary>
-<p>Grid gives scattered company information a useful front door. People, resources, and places belong together because that is how employees experience the company.</p>
-<p><strong>The workflow:</strong> Find a person → Get the context → Move forward.</p>
-</details>
-<h3 id="grep">Grep</h3>
-<p><picture><source media="(max-width: 600px)" srcset="assets/grep-mobile-card.svg"><img src="assets/grep-card.svg" width="100%" alt="Grep: Find the answer. Keep the evidence. Ask a question → Trace the source → Use the answer." /></picture></p>
-<p>A company search and intelligence workspace for finding decisions, prior work, source material, and the people behind them.</p>
-<p><strong>Why:</strong> Useful answers need traceable sources and the right access, not another layer of information to sort through.</p>
-<p><img src="https://img.shields.io/badge/Search-395a6f?style=flat-square" alt="Search" /> <img src="https://img.shields.io/badge/Citations-395a6f?style=flat-square" alt="Citations" /> <img src="https://img.shields.io/badge/Access--aware%20AI-395a6f?style=flat-square" alt="Access-aware AI" /></p>
-<details>
-<summary><b>Grep — why I build it</b></summary>
-<p>Grep brings retrieval, synthesis, and company context into a workspace built around questions people actually ask. The source remains part of the answer, so the next decision has something solid behind it.</p>
-<p><strong>The workflow:</strong> Ask a question → Trace the source → Use the answer.</p>
-</details>
-<h3 id="support-station">Support Station</h3>
-<p><picture><source media="(max-width: 600px)" srcset="assets/support-mobile-card.svg"><img src="assets/support-card.svg" width="100%" alt="Support Station: Turn customer signals into coordinated action. Read the signals → Find the pattern → Coordinate action." /></picture></p>
-<p>A support workspace connecting queue health, customer sentiment, quality, reporting, knowledge gaps, and incident response.</p>
-<p><strong>Why:</strong> Support teams need to see what needs attention and connect individual issues to patterns across the product.</p>
-<p><img src="https://img.shields.io/badge/Support-675075?style=flat-square" alt="Support" /> <img src="https://img.shields.io/badge/Product%20signals-675075?style=flat-square" alt="Product signals" /> <img src="https://img.shields.io/badge/Incident%20response-675075?style=flat-square" alt="Incident response" /></p>
-<details>
-<summary><b>Support Station — why I build it</b></summary>
-<p>Support Station brings operational context and AI-assisted analysis into the same place. The aim is to help engineers, managers, and leaders understand the situation, investigate recurring issues, and coordinate the response.</p>
-<p><strong>The workflow:</strong> Read the signals → Find the pattern → Coordinate action.</p>
-</details>
-<h3 id="counsel">Counsel</h3>
-<p><picture><source media="(max-width: 600px)" srcset="assets/counsel-mobile-card.svg"><img src="assets/counsel-card.svg" width="100%" alt="Counsel: Give legal judgment a better workspace. Triage clauses → Review changes → Keep the record." /></picture></p>
-<p>AI-assisted contract review bringing clause triage, playbooks, redlines, precedent, and negotiation context into one workspace.</p>
-<p><strong>Why:</strong> Legal teams need the relevant evidence beside the clause they are reviewing, with control over every decision.</p>
-<p><img src="https://img.shields.io/badge/Legal-6a604a?style=flat-square" alt="Legal" /> <img src="https://img.shields.io/badge/Contract%20review-6a604a?style=flat-square" alt="Contract review" /> <img src="https://img.shields.io/badge/Human%20judgment-6a604a?style=flat-square" alt="Human judgment" /></p>
-<details>
-<summary><b>Counsel — why I build it</b></summary>
-<p>Counsel organizes the work around the contract: compare a clause with the playbook, review a proposed change, and retain the reasoning and history. AI helps prepare and surface context; the lawyer stays in charge of review.</p>
-<p><strong>The workflow:</strong> Triage clauses → Review changes → Keep the record.</p>
-</details>
-<h3 id="revenue-copilot">Revenue Copilot</h3>
-<p><picture><source media="(max-width: 600px)" srcset="assets/revenue-mobile-card.svg"><img src="assets/revenue-card.svg" width="100%" alt="Revenue Copilot: Less assembly. More informed next steps. Gather context → Set priorities → Take the next step." /></picture></p>
-<p>A shared workspace for revenue priorities, pipeline, forecasts, account research, and AI-assisted daily work.</p>
-<p><strong>Why:</strong> Teams should be able to act on account context without rebuilding it from disconnected systems every morning.</p>
-<p><img src="https://img.shields.io/badge/Revenue-3e6759?style=flat-square" alt="Revenue" /> <img src="https://img.shields.io/badge/Pipeline-3e6759?style=flat-square" alt="Pipeline" /> <img src="https://img.shields.io/badge/Account%20context-3e6759?style=flat-square" alt="Account context" /></p>
-<details>
-<summary><b>Revenue Copilot — why I build it</b></summary>
-<p>Revenue Copilot brings work queues, research, analytics, and team visibility together. Numbers and recommendations retain their source context, so the team can understand what it is acting on.</p>
-<p><strong>The workflow:</strong> Gather context → Set priorities → Take the next step.</p>
-</details>
-<h2 id="more-of-the-studio">More of the Studio</h2>
-<p><picture><source media="(max-width: 600px)" srcset="assets/toolbox-mobile.svg"><img src="assets/toolbox.svg" width="100%" alt="The Studio toolbox: PULSE, Hireflow, Asset Lab, Kaishi, Vibecode Time, and AI Studio." /></picture></p>
-<details>
-<summary><b>PULSE</b> · Builder tools & extensions</summary>
-<img src="assets/logos/pulse.png" width="56" height="56" alt="PULSE logo" />
-<p>Chrome and Raycast companions for app building, project access, and permission-aware project insights.</p>
-<p><strong>Why:</strong> Bring useful context into the tools people already use, so getting to the work takes fewer steps.</p>
-<p>PULSE connects desktop and browser workflows with Replit. The surrounding release hub gives employees a clear place to get the companions and understand what changed.</p>
-</details>
-<details>
-<summary><b>Hireflow</b> · Recruiting workflows</summary>
-<img src="assets/logos/hireflow.svg" width="56" height="56" alt="Hireflow logo" />
-<p>A hiring workspace connecting sourcing, candidate search, screening evidence, recruiter calibration, and ATS workflows.</p>
-<p><strong>Why:</strong> Recruiters need consistent context and a clear way to inspect the evidence behind a recommendation.</p>
-<p>Hireflow brings the steps around a role into a shared workflow, from discovering candidates to reviewing their supporting material. Recruiter judgment and calibration are part of the product.</p>
-</details>
-<details>
-<summary><b>Asset Lab</b> · Creative & brand operations</summary>
-<img src="assets/logos/assets.svg" width="56" height="56" alt="Asset Lab logo" />
-<p>An AI-powered brand and asset workspace for generating, organizing, and working with launch and marketing material.</p>
-<p><strong>Why:</strong> Creative work needs a path from an idea to something the team can find, reuse, and put to work.</p>
-<p>Asset Lab brings creation and asset management together. Brand context, generation, and organization sit within the same workflow instead of being scattered across separate tools.</p>
-</details>
-<details>
-<summary><b>Kaishi</b> · Meetings & follow-through</summary>
-<img src="assets/logos/kaishi.png" width="56" height="56" alt="Kaishi logo" />
-<p>Meeting capture, searchable transcripts, decisions, and actions brought into a dedicated workspace.</p>
-<p><strong>Why:</strong> A good conversation should leave context people can recover and a next step they can follow.</p>
-<p>Kaishi began with the need to preserve the value of a standup. It connects what was said with the actions and project context that follow, and informed the development of the broader Studio workbench.</p>
-</details>
-<details>
-<summary><b>Vibecode Time</b> · Company building culture</summary>
-<img src="assets/logos/vibecode.svg" width="56" height="56" alt="Vibecode Time logo" />
-<p>An internal platform for build challenges, themes, submissions, voting, and sharing what employees make with Replit Agent.</p>
-<p><strong>Why:</strong> People learn what AI can do by using it on a real idea and seeing what their colleagues create.</p>
-<p>Vibecode Time gives company building events a home, from joining a challenge to submitting a project and discovering the work. Enablement becomes something people participate in.</p>
-</details>
-<details>
-<summary><b>AI Studio</b> · The operating workbench</summary>
-<img src="assets/logos/studio.png" width="56" height="56" alt="AI Studio logo" />
-<p>A portfolio workbench for requests, projects, meetings, feedback, tasks, and reviewed priorities across the Studio.</p>
-<p><strong>Why:</strong> As the portfolio grows, requests, ownership, evidence, and follow-through need to stay connected.</p>
-<p>The workbench brings Studio coordination into one place while source applications keep their own records and access boundaries. It is being developed through a pilot, with rollout and team adoption treated as separate milestones.</p>
-</details>
-<p>Alongside these products, my work includes the <strong>Design Gallery</strong>: reusable Canvas examples that help more people design and build. The wider Studio portfolio also includes <strong>Repforce</strong>, a team-led CRM and revenue intelligence effort.</p>
-<h2 id="how-i-work">How I work</h2>
+<p>I'm Luca, <strong>AI Chief of Staff at <a href="https://replit.com">Replit</a></strong>, based in San Francisco. I work where operations, AI, and product design meet: finding the friction, imagining a better experience, and building the tools to make it real.</p>
+<p>I care about the whole thing: the person using it, the workflow behind it, the interface, and what happens after the first version ships.</p>
+<h2 id="built-around-the-way-people-work">Built around the way people work</h2>
+<p>A selection of my work across the AI Studio portfolio. Different teams, different problems; one instinct to make the next step easier.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Listen</th>
-<th style="text-align:left">Build</th>
-<th style="text-align:left">Learn</th>
-<th style="text-align:left">Enable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Understand the people, the friction, and the information behind the work.</td>
-<td style="text-align:left">Turn one useful workflow into something the team can try.</td>
-<td style="text-align:left">Observe use, gather feedback, and improve the details.</td>
-<td style="text-align:left">Teach it, document it, establish ownership, and keep it useful.</td>
-</tr>
-</tbody>
+<tr><td width="50%" valign="top"><a href="https://luca.ooo/#project-volare"><img src="assets/volare-showcase.webp" width="100%" alt="Volare — Every part of the journey, connected. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-volare"><b>Volare ↗</b></a><br>Travel, approvals, hotels, and the unexpected — connected across web and native iOS.<br><br></td><td width="50%" valign="top"><a href="https://luca.ooo/#project-grid"><img src="assets/grid-showcase.webp" width="100%" alt="Grid — A company that is easier to navigate. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-grid"><b>Grid ↗</b></a><br>A front door to company knowledge: people, resources, teams, and places.<br><br></td></tr>
+<tr><td width="50%" valign="top"><a href="https://luca.ooo/#project-grep"><img src="assets/grep-showcase.webp" width="100%" alt="Grep — Find the answer. Keep the evidence. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-grep"><b>Grep ↗</b></a><br>Company search that keeps sources, context, and access attached to the answer.<br><br></td><td width="50%" valign="top"><a href="https://luca.ooo/#project-pulse"><img src="assets/pulse-showcase.webp" width="100%" alt="PULSE — Your Replit workspace, within reach. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-pulse"><b>PULSE ↗</b></a><br>Replit building and workspace intelligence, closer to hand in Chrome and Raycast.<br><br></td></tr>
+<tr><td width="50%" valign="top"><a href="https://luca.ooo/#project-kaishi"><img src="assets/kaishi-showcase.webp" width="100%" alt="Kaishi — Keep the thinking. Move the work forward. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-kaishi"><b>Kaishi ↗</b></a><br>Meeting capture, searchable context, and follow-through that survives the conversation.<br><br></td><td width="50%" valign="top"><a href="https://luca.ooo/#project-revenue"><img src="assets/revenue-showcase.webp" width="100%" alt="Revenue Copilot — Less assembly. More informed next steps. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-revenue"><b>Revenue Copilot ↗</b></a><br>Pipeline, forecasts, account research, and the context behind the next decision.<br><br></td></tr>
 </table>
+<p><sub>Real product interfaces from my public portfolio, shown with sample or demo data. Explore each project for more context.</sub></p>
+<h2 id="the-way-i-build">The way I build</h2>
+<p><strong>Start with a person. Follow the workflow. Make something useful. Keep improving it.</strong></p>
+<p>AI helps me move between an idea and a working product. Product judgment is deciding what deserves to exist, how it should feel, and what makes it worth coming back to.</p>
 <details>
-<summary><b>The principles behind the products</b></summary>
+<summary><b>A few things I keep coming back to</b></summary>
 <ul>
-<li><strong>Start with the person.</strong> Understand the work before choosing where AI belongs.</li>
-<li><strong>Give intelligence a clear job.</strong> Find context, prepare a draft, or make the next action easier.</li>
-<li><strong>Keep sources and decisions visible.</strong> People should understand what informed an answer and what needs their review.</li>
-<li><strong>Design the whole experience.</strong> The interface, permissions, handoffs, and everyday details are part of the product.</li>
-<li><strong>Stay after the prototype.</strong> Teaching, ownership, feedback, and maintenance make a tool useful over time.</li>
+<li><strong>People first.</strong> Understand the work before deciding where AI belongs.</li>
+<li><strong>Design the whole experience.</strong> The interface, permissions, handoffs, and small details all count.</li>
+<li><strong>Keep the evidence.</strong> Useful answers should come with sources and visible decisions.</li>
+<li><strong>Stay after the prototype.</strong> Feedback, teaching, maintenance, and ownership are part of building.</li>
 </ul>
 </details>
-<p align="center"><img src="https://img.shields.io/badge/Replit-FF3C00?style=flat-square&amp;logo=replit&amp;logoColor=white" alt="Replit" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/React-202A32?style=flat-square&amp;logo=react&amp;logoColor=white" alt="React" /> <img src="https://img.shields.io/badge/Node.js-416445?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/SwiftUI-C9532C?style=flat-square&amp;logo=swift&amp;logoColor=white" alt="SwiftUI" /> <img src="https://img.shields.io/badge/MCP-4F5C66?style=flat-square" alt="MCP" /></p>
-<h2 id="beyond-the-profile">Beyond the profile</h2>
-<p><a href="https://luca.ooo"><strong>luca.ooo</strong></a> — my portfolio and <a href="https://luca.ooo/insights/ai-chief-of-staff">field notes</a> on operations, AI, and product design.</p>
-<p><a href="https://agi2asi.ai"><strong>agi2asi.ai</strong></a> — the curiosity behind the work, exploring what increasingly capable AI lets one person make.</p>
-<p><img src="assets/footer.svg" width="100%" alt="People first. Then the software. Luca Andrea — Replit AI Studio." /></p>
-<p align="center"><a href="mailto:ciao@luca.ooo">Say ciao ↗</a> &nbsp; · &nbsp; <a href="https://www.linkedin.com/in/luca-andrea/">LinkedIn ↗</a> &nbsp; · &nbsp; <a href="https://x.com/agi2asi">X / @agi2asi ↗</a></p>
-</article><p class="notice">Local Markdown render, styled to approximate GitHub. The README uses GitHub-compatible images, badges, links, and expandable sections. This surrounding layout and theme control belong to the local preview.</p></main></div><script>let dark=false;document.querySelector('#theme').addEventListener('click',()=>{dark=!dark;document.documentElement.style.cssText=dark?'color-scheme:dark;--bg:#0d1117;--ink:#e6edf3;--muted:#919ba5;--line:#30363d;--soft:#161b22;--link:#58a6ff':'';document.querySelector('#theme').textContent=dark?'Light theme':'Dark theme'})</script></body></html>
+<p><sub>Across the workbench: Replit · TypeScript · React · Python · SwiftUI · PostgreSQL · AI agents &amp; MCP</sub></p>
+<h2 id="curiosity-doesnt-clock-out">Curiosity doesn't clock out</h2>
+<p>Cars, music, native apps, connected devices, and a more personal web. The things that catch my attention tend to become things I build.</p>
+<p><a href="https://luca.ooo/#experiments"><picture><source media="(max-width: 600px)" srcset="assets/experiments-mobile.webp"><img src="assets/experiments.webp" width="100%" alt="After hours: LucaOS, a desktop in the browser; Targa Fuel, a native app for a classic Porsche; Music Lab, AI music experiments." /></picture></a></p>
+<p><strong><a href="https://luca.ooo/#project-lucaos">LucaOS</a></strong> · <strong><a href="https://luca.ooo/#project-targa">Targa Fuel</a></strong> · <strong><a href="https://luca.ooo/#project-music">Music Lab</a></strong></p>
+<p>Also on my public workbench: my forks of <strong><a href="https://github.com/lucaandrea/free-sleep">Free Sleep</a></strong> and the <strong><a href="https://github.com/lucaandrea/muse-gadget-sdk">Muse Gadget SDK</a></strong>, exploring software that reaches into the physical world.</p>
+<p><a href="https://luca.ooo/work-with-me"><picture><source media="(max-width: 600px)" srcset="assets/footer-mobile.svg"><img src="assets/footer.svg" width="100%" alt="Good ideas deserve to become real things. Let’s build what comes next." /></picture></a></p>
+<p align="center"><a href="https://luca.ooo/work-with-me"><b>Advisory & working sessions ↗</b></a> &nbsp; · &nbsp; <a href="https://luca.ooo/insights/ai-chief-of-staff">Field notes</a> &nbsp; · &nbsp; <a href="https://agi2asi.ai">AGI2ASI</a></p>
+</article><p class="notice">Local Markdown render, styled to approximate GitHub. The README uses GitHub-compatible images, links, and expandable sections. This surrounding layout and theme control belong to the local preview.</p></main></div><script>let dark=false;document.querySelector('#theme').addEventListener('click',()=>{dark=!dark;document.documentElement.style.cssText=dark?'color-scheme:dark;--bg:#0d1117;--ink:#e6edf3;--muted:#919ba5;--line:#30363d;--soft:#161b22;--link:#58a6ff':'';document.querySelector('#theme').textContent=dark?'Light theme':'Dark theme'})</script></body></html>

@@ -4,11 +4,18 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "python3 review/build-art.py && node review/build-profile.mjs && node review/build-github.mjs",
-    "build:art": "python3 review/build-art.py",
+    "check": "node --check review/build-profile.mjs && node --check review/build-visuals.mjs && node --check review/build-github.mjs && node --check app.js",
+    "test": "node review/validate.mjs",
+    "build": "node review/build-visuals.mjs && node review/build-profile.mjs && node review/build-github.mjs",
+    "build:art": "node review/build-visuals.mjs",
     "preview": "python3 -m http.server 43174 --bind 127.0.0.1"
   },
   "devDependencies": {
-    "markdown-it": "14.3.1"
-  }
+    "markdown-it": "14.3.1",
+    "sharp": "0.34.5"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "packageManager": "pnpm@11.25.0"
 }
