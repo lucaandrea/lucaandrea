@@ -1,0 +1,36 @@
+{
+  "name": "Luca Andrea",
+  "bio": "AI Chief of Staff @ Replit. Turning real workflows into useful software. Operations, AI & product design. Always building something.",
+  "website": "https://luca.ooo",
+  "intro": "I'm Luca, AI Chief of Staff at Replit, based in San Francisco. I work where operations, AI, and product design meet: finding the friction, imagining a better experience, and building the tools to make it real.",
+  "approach": "I care about the whole thing: the person using it, the workflow behind it, the interface, and what happens after the first version ships.",
+  "featured": [
+    "volare",
+    "grid",
+    "grep",
+    "pulse",
+    "kaishi",
+    "revenue"
+  ],
+  "experiments": [
+    {
+      "id": "lucaos",
+      "name": "LucaOS",
+      "line": "A desktop, reimagined in the browser.",
+      "screen": "lucaos-desktop"
+    },
+    {
+      "id": "targa",
+      "name": "Targa Fuel",
+      "line": "Classic cars. Thoughtful native software.",
+      "screen": "targa-dashboard"
+    },
+    {
+      "id": "music",
+      "name": "Music Lab",
+      "line": "An idea becomes a composition.",
+      "screen": "music-studio"
+    }
+  ],
+  "avatar": "assets/luca.jpg"
+}
