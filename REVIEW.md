@@ -9,7 +9,7 @@ publication review described in [PROFILE_SETTINGS.md](PROFILE_SETTINGS.md).
   cards, a concise first-person introduction, an approach disclosure, a personal
   project gallery, and direct portfolio/contact links.
 - `github.html` approximates GitHub's surrounding layout in light and dark
-  themes, using the existing public avatar and proposed account bio.
+  themes, using the proposed public-portfolio portrait and account bio.
 - `index.html` is an optional interactive portfolio preview with filters,
   project stories, keyboard support, and light/dark themes.
 - `responsive.html` provides a phone frame for either preview.
@@ -66,6 +66,9 @@ solo authorship of upstream open-source projects.
 for nine unchanged source screenshots from `luca.ooo/images/work/`. These are
 already published sample/demo captures, not newly captured production views.
 Generated project cards crop those captures to a consistent presentation frame.
+
+`data/portrait-source.json` records the unchanged portrait already published
+on luca.ooo, proposed as the GitHub avatar.
 
 `data/asset-sources.json` retains the September provenance for the existing
 product marks. `review/build-visuals.mjs` uses those marks to generate the SVG

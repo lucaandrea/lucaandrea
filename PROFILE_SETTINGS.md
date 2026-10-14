@@ -15,8 +15,10 @@ AI Chief of Staff @ Replit. Turning real workflows into useful software. Operati
 
 **Website:** https://luca.ooo
 
-The existing avatar, display name, company, location, and social links are
-preserved. The account bio and website were empty when checked on October 14,
+**Avatar:** [Existing public portrait](assets/luca.jpg) from
+https://luca.ooo/images/luca.jpg, unchanged at 400 × 400 pixels.
+
+The existing display name, company, location, and social links are preserved. The account bio and website were empty when checked on October 14,
 2026. `data/profile.json` contains the exact proposed field values.
 
 ## Activation after review
@@ -26,7 +28,7 @@ preserved. The account bio and website were empty when checked on October 14,
    repository and its existing September draft history, including the earlier
    product descriptions and artwork provenance. It does not expose the source
    repositories for the featured products.
-3. Apply only the proposed bio and website fields to the `lucaandrea` account.
+3. Apply the proposed portrait, bio, and website fields to the `lucaandrea` account.
 4. Verify the public profile while signed out, including the header, all six
    product images, experiment artwork, and mobile sources.
 
