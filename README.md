@@ -5,50 +5,49 @@
 
 ### Ciao, I'm Luca.
 
-I'm Luca, **AI Chief of Staff at [Replit](https://replit.com)**, based in San Francisco. I work where operations, AI, and product design meet: finding the friction, imagining a better experience, and building the tools to make it real.
+I'm the **AI Chief of Staff at [Replit](https://replit.com)**, based in San Francisco. I spend a lot of my time spotting the work that slows people down, then building something to fix it. Sometimes that's an internal tool. Sometimes it's a new way for a team to find what it needs.
 
-I care about the whole thing: the person using it, the workflow behind it, the interface, and what happens after the first version ships.
+I like getting into the details: what someone actually does all day, where the handoffs get messy, and whether the thing we shipped still works once people start using it.
 
-## Built around the way people work
+## Things I've built
 
-A selection of my work across the AI Studio portfolio. Different teams, different problems; one instinct to make the next step easier.
+These are a few projects from my AI Studio work. Each started with a problem someone kept running into.
 
 <table>
-<tr><td width="50%" valign="top"><a href="https://luca.ooo/#project-volare"><img src="assets/volare-showcase.webp" width="100%" alt="Volare — Every part of the journey, connected. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-volare"><b>Volare ↗</b></a><br>Travel, approvals, hotels, and the unexpected — connected across web and native iOS.<br><br></td><td width="50%" valign="top"><a href="https://luca.ooo/#project-grid"><img src="assets/grid-showcase.webp" width="100%" alt="Grid — A company that is easier to navigate. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-grid"><b>Grid ↗</b></a><br>A front door to company knowledge: people, resources, teams, and places.<br><br></td></tr>
-<tr><td width="50%" valign="top"><a href="https://luca.ooo/#project-grep"><img src="assets/grep-showcase.webp" width="100%" alt="Grep — Find the answer. Keep the evidence. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-grep"><b>Grep ↗</b></a><br>Company search that keeps sources, context, and access attached to the answer.<br><br></td><td width="50%" valign="top"><a href="https://luca.ooo/#project-pulse"><img src="assets/pulse-showcase.webp" width="100%" alt="PULSE — Your Replit workspace, within reach. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-pulse"><b>PULSE ↗</b></a><br>Replit building and workspace intelligence, closer to hand in Chrome and Raycast.<br><br></td></tr>
-<tr><td width="50%" valign="top"><a href="https://luca.ooo/#project-kaishi"><img src="assets/kaishi-showcase.webp" width="100%" alt="Kaishi — Keep the thinking. Move the work forward. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-kaishi"><b>Kaishi ↗</b></a><br>Meeting capture, searchable context, and follow-through that survives the conversation.<br><br></td><td width="50%" valign="top"><a href="https://luca.ooo/#project-revenue"><img src="assets/revenue-showcase.webp" width="100%" alt="Revenue Copilot — Less assembly. More informed next steps. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-revenue"><b>Revenue Copilot ↗</b></a><br>Pipeline, forecasts, account research, and the context behind the next decision.<br><br></td></tr>
+<tr><td width="50%" valign="top"><a href="https://luca.ooo/#project-volare"><img src="assets/volare-showcase.webp" width="100%" alt="Volare — Every part of the journey, connected. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-volare"><b>Volare ↗</b></a><br>Travel requests, approvals, hotels, and last-minute changes in one place, on the web and iOS.<br><br></td><td width="50%" valign="top"><a href="https://luca.ooo/#project-grid"><img src="assets/grid-showcase.webp" width="100%" alt="Grid — A company that is easier to navigate. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-grid"><b>Grid ↗</b></a><br>A place to find the people, teams, resources, and offices you're looking for.<br><br></td></tr>
+<tr><td width="50%" valign="top"><a href="https://luca.ooo/#project-grep"><img src="assets/grep-showcase.webp" width="100%" alt="Grep — Find the answer. Keep the evidence. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-grep"><b>Grep ↗</b></a><br>Search across company knowledge, with sources and context you can check.<br><br></td><td width="50%" valign="top"><a href="https://luca.ooo/#project-pulse"><img src="assets/pulse-showcase.webp" width="100%" alt="PULSE — Your Replit workspace, within reach. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-pulse"><b>PULSE ↗</b></a><br>Replit workspace information where I use it, in Chrome and Raycast.<br><br></td></tr>
+<tr><td width="50%" valign="top"><a href="https://luca.ooo/#project-kaishi"><img src="assets/kaishi-showcase.webp" width="100%" alt="Kaishi — Keep the thinking. Move the work forward. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-kaishi"><b>Kaishi ↗</b></a><br>Meeting notes and decisions you can search later, with a way to keep track of what comes next.<br><br></td><td width="50%" valign="top"><a href="https://luca.ooo/#project-revenue"><img src="assets/revenue-showcase.webp" width="100%" alt="Revenue Copilot — Less assembly. More informed next steps. Actual interface with sample data." /></a><br><br><a href="https://luca.ooo/#project-revenue"><b>Revenue Copilot ↗</b></a><br>Pipeline and forecast data alongside account research, so the team has the context for its next decision.<br><br></td></tr>
 </table>
 
 <sub>Real product interfaces from my public portfolio, shown with sample or demo data. Explore each project for more context.</sub>
 
-## The way I build
+## How I work
 
-**Start with a person. Follow the workflow. Make something useful. Keep improving it.**
+I start by watching how people work and asking where they get stuck. Then I build a version they can use and learn from what happens next.
 
-AI helps me move between an idea and a working product. Product judgment is deciding what deserves to exist, how it should feel, and what makes it worth coming back to.
+AI makes it easier for me to get an idea into someone's hands. I still spend plenty of time on the less glamorous parts: permissions, unclear handoffs, confusing screens, and the fixes that come after launch.
 
 <details>
-<summary><b>A few things I keep coming back to</b></summary>
+<summary><b>A few things I try to get right</b></summary>
 
-- **People first.** Understand the work before deciding where AI belongs.
-- **Design the whole experience.** The interface, permissions, handoffs, and small details all count.
-- **Keep the evidence.** Useful answers should come with sources and visible decisions.
-- **Stay after the prototype.** Feedback, teaching, maintenance, and ownership are part of building.
+- Understand the work before deciding whether AI would help.
+- Pay attention to permissions and handoffs, not only the screens.
+- Make it possible to check where an answer came from.
+- Keep working on the product after the first demo.
 
 </details>
 
-
 <sub>Across the workbench: Replit · TypeScript · React · Python · SwiftUI · PostgreSQL · AI agents & MCP</sub>
 
-## Curiosity doesn't clock out
+## After hours
 
-Cars, music, native apps, connected devices, and a more personal web. The things that catch my attention tend to become things I build.
+I tend to build things around whatever I'm curious about. Lately that's meant cars, music, native apps, connected devices, and experiments with the web.
 
 <a href="https://luca.ooo/#experiments"><picture><source media="(max-width: 600px)" srcset="assets/experiments-mobile.webp"><img src="assets/experiments.webp" width="100%" alt="After hours: LucaOS, a desktop in the browser; Targa Fuel, a native app for a classic Porsche; Music Lab, AI music experiments." /></picture></a>
 
 **[LucaOS](https://luca.ooo/#project-lucaos)** · **[Targa Fuel](https://luca.ooo/#project-targa)** · **[Music Lab](https://luca.ooo/#project-music)**
 
-Also on my public workbench: my forks of **[Free Sleep](https://github.com/lucaandrea/free-sleep)** and the **[Muse Gadget SDK](https://github.com/lucaandrea/muse-gadget-sdk)**, exploring software that reaches into the physical world.
+I've also been tinkering with my forks of **[Free Sleep](https://github.com/lucaandrea/free-sleep)** and the **[Muse Gadget SDK](https://github.com/lucaandrea/muse-gadget-sdk)**. I like projects where software meets the physical world.
 
 <a href="https://luca.ooo/work-with-me"><picture><source media="(max-width: 600px)" srcset="assets/footer-mobile.svg"><img src="assets/footer.svg" width="100%" alt="Good ideas deserve to become real things. Let’s build what comes next." /></picture></a>
 
