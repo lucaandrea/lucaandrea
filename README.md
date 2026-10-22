@@ -37,6 +37,7 @@ AI helps me move between an idea and a working product. Product judgment is deci
 
 </details>
 
+
 <sub>Across the workbench: Replit · TypeScript · React · Python · SwiftUI · PostgreSQL · AI agents & MCP</sub>
 
 ## Curiosity doesn't clock out
